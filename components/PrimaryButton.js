@@ -1,4 +1,5 @@
 import { View, Text, Pressable, StyleSheet } from "react-native";
+import Colors from "../util/Colors";
 
 function PrimaryButton({ children, onPressCustom }) {
   // function pressHandler() {
@@ -32,7 +33,7 @@ const styles = StyleSheet.create({
   buttonInnerContainer: {
     paddingHorizontal: 16,
     paddingVertical: 8,
-    backgroundColor: "#008080",
+    backgroundColor: Colors.secondary,
     elevation: 2,
   },
   buttonText: {
